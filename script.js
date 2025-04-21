@@ -1,3 +1,5 @@
+// This is a JavaScript file that contains functions to manipulate the DOM and handle events.
+// It includes functions to change the background color of a button, toggle a subscription message,
 function subscribeButtonClicked() {
     let subscribeButton = document.getElementById("js-subscribe-button");
     let subscribeText = document.getElementById("js-subscribe-message");
@@ -12,6 +14,8 @@ function subscribeButtonClicked() {
         subscribeText.innerHTML = "Thank you for subscribing!";
     }
 }
+
+//Add/remove todo items from a list.
 
 function addTodo() {
     let todoInput = document.querySelector("#js-todo-input");

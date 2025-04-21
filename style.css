@@ -37,6 +37,8 @@ p{
     color: #555;
 }
 
+/* Add styles for the buttons and input fields */
+
 #js-subscribe-button, #js-remove-todo{
     background-color: #b50000;
     color: white;
